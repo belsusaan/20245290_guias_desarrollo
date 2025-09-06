@@ -1,0 +1,112 @@
+/* Reset  */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #EDE8DC;
+    text-align: justify;
+}
+
+header {
+    background-color: #B17F59;
+    color: #EDE8DC;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    color: #B17F59;
+}
+
+.menu ul {
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #EDE8DC;
+    font-weight: bold;
+}
+
+#resumen, #personajes, #relevancia, #libros, .referencias {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#personajes {
+    border-radius: 10px;
+    text-align: center;
+}
+
+#personajes ul {
+    list-style: none;
+}
+
+#personajes li {
+    width: 600px;
+    box-shadow: 0 4px 8px #B17F59;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: #B17F59;
+    color: #EDE8DC;
+}
+
+#personajes p {
+    text-align: justify;
+}
+
+main img {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#relevancia p span {
+    font-weight: bold;
+    color: #B17F59;
+}
+
+.libros-table {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.libros-table td, .libros-table th{
+    border: 1px solid #B17F59;
+    padding: 10px;
+}
+
+.libros-table th {
+    background-color: #B17F59;
+    color: #EDE8DC;
+}
+
+.referencias a:visited{
+    color: #A67B5B
+}
+.referencias a:link {
+    color: #6F4E37;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    color: #B17F59;
+}
