@@ -19,7 +19,7 @@ body {
 /* ---- MENÚ ---- */
 .menu {
     background-color: #708993;
-    width: 25%;
+    width: 30%;
     padding: 20px;
     border-radius: 100px;
     margin: 40px auto;
@@ -60,7 +60,7 @@ body {
 }
 
 .contenido section h2 {
-    padding-bottom: 2%;
+    padding-bottom: 10px;
 }
 /* About me*/
 
@@ -76,6 +76,7 @@ body {
     height: auto;
     margin-right: 100px;
     border-radius: 100px;
+    border: white double 5px;
 }
 
 #about-me {
@@ -115,11 +116,32 @@ body {
 #educacion .edu2 ol>li {
     padding: 1.5%;
 }
+
 /* Intereses */
-#intereses .img-arte img {
-    width: 200px;
+
+#intereses .img-arte{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#intereses .img-arte .grandes, #intereses .img-arte .pequeñas {
+    margin-top: 30px ;
+    border-radius: 100px;
+    border: white double 5px;
+    margin: 30px;
+}
+
+#intereses .img-arte .grandes {
+    width: 25%;
     height: auto;
 }
+
+#intereses .img-arte .pequeñas {
+    width: 25%;
+    height: auto;
+}
+
 
 
 /* ---- FOOTER ---- */
