@@ -1,0 +1,73 @@
+/* poner todas en el mismo lugar para tener una posicion inical*/
+img {
+    position: absolute;
+}
+
+.container2 {
+    margin-top: 40vh;
+}
+
+/* Posicionamiento resultado 1*/
+
+.container1 #diez_de_diamantes img {
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+}
+
+.container1 #sota_de_diamantes img {
+    left: 115px;
+    top: 115px;
+    z-index: -1;
+}
+
+.container1 #reina_de_diamantes img {
+    left: 130px;
+    top: 130px;
+    z-index: -1;
+}
+
+.container1 #rey_de_diamantes img {
+    left: 145px;
+    top: 145px;
+    z-index: -1;
+}
+
+.container1 #as_de_diamantes img {
+    left: 160px;
+    top: 160px;
+    z-index: -1;
+}
+
+/* Posicionamiento resultado 2*/
+
+
+.container2 #diez_de_diamantes img {
+    left: 100px;
+    top: 400px;
+    z-index: 5;
+}
+
+.container2 #sota_de_diamantes img {
+    left: 115px;
+    top: 415px;
+    z-index: 4;
+}
+
+.container2 #reina_de_diamantes img {
+    left: 130px;
+    top: 430px;
+    z-index: 3;
+}
+
+.container2 #rey_de_diamantes img {
+    left: 145px;
+    top: 445px;
+    z-index: 2;
+}
+
+.container2 #as_de_diamantes img {
+    left: 160px;
+    top: 460px;
+    z-index: 1;
+}
