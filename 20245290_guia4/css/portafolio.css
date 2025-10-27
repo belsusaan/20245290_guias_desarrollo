@@ -349,6 +349,10 @@ section p {
     position: fixed;
   }
 
+  header h1 {
+    font-size: 1.5rem;
+  }
+
   .menu-icono {
     display: block;
   }
@@ -383,6 +387,9 @@ section p {
 
   /* Sobre mí */
 
+  .about-me {
+    padding-top: 2rem;
+  }
   .txt-container {
     flex-direction: column;
   }
