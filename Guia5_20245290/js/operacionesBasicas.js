@@ -44,7 +44,7 @@ function dividir() {
     resultado = numero1 / numero2;
     mensaje = `${numero1} / ${numero2} = ${resultado}`;
   } else {
-    mensaje = `El valor ${numero1} / ${numero2} = ${resultado}`;
+    mensaje = `El valor ${numero1} / ${numero2} = ${resultado} no se puede dividir`;
   }
   parrafo.innerHTML = mensaje;
 }
